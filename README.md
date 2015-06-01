@@ -27,5 +27,4 @@ Spark es un stack de Wordpress basado en [Bedrock](https://roots.io/bedrock/)
 
 ## Extras
 
-Starter theme reponsivo
-  * [Underscore](http://underscores.me/)
+  * Starter theme reponsivo [Underscore](http://underscores.me/).
