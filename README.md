@@ -1,5 +1,4 @@
 # Spark
-
 Spark es un stack de Wordpress basado en [Bedrock](https://roots.io/bedrock/)
 
 ## Requerimientos
@@ -25,3 +24,8 @@ Spark es un stack de Wordpress basado en [Bedrock](https://roots.io/bedrock/)
 6. Restaurar el último backup de la db desde `web/app/uploads/wp-migrate-db`
   * gunzip < [backupfile.sql.gz] | mysql -u [uname] -p[pass] [dbname]
 7. Ingrar al admin desde `http://site.local/wp/wp-admin`
+
+## Extras
+
+Starter theme reponsivo
+  * [Underscore](http://underscores.me/)
