@@ -19,6 +19,7 @@ Spark es un stack de Wordpress basado en [Bedrock](https://roots.io/bedrock/)
   * `WP_ENV` - Entorno (`development`, `staging`, `production`)
   * `WP_HOME` - Full URL al home (http://site.local)
   * `WP_SITEURL` - Full URL al WordPress incluyendo el subdirectorio (http://site.local/wp)
+  * `WP_LANG` - Idioma ('es_ES', 'en', etc)
 4. Copiar el/los themes en `web/app/themes`.
 5. Configurar el vhost http://site.local para que apunte a `/path/to/site/web/`
 6. Restaurar el último backup de la db desde `web/app/uploads/wp-migrate-db`
@@ -28,3 +29,5 @@ Spark es un stack de Wordpress basado en [Bedrock](https://roots.io/bedrock/)
 ## Extras
 
   * Starter theme reponsivo [Underscore](http://underscores.me/).
+
+  * Descargar archivos de idiomas en `/path/to/site/web/app/languages`

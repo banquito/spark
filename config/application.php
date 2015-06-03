@@ -39,6 +39,10 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 $table_prefix = getenv('DB_PREFIX') ?: 'wp_';
 /**
+ * LANG setting
+ */
+define ('WPLANG', getenv('WP_LANG'));
+/**
  * Authentication Unique Keys and Salts
  */
 define('AUTH_KEY', getenv('AUTH_KEY'));
