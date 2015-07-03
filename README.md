@@ -1,5 +1,6 @@
 # Spark
 [![Build Status](https://travis-ci.org/banquito/spark.svg)](https://travis-ci.org/banquito/spark)
+
 Spark es un stack de Wordpress basado en [Bedrock](https://roots.io/bedrock/)
 
 ## Requerimientos
