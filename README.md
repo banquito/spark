@@ -9,7 +9,7 @@ Spark es un stack de Wordpress basado en [Bedrock](https://roots.io/bedrock/)
 * Composer - [Instalar](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 * WP-CLI (opcional) - [Instalar](http://wp-cli.org)
 
-## Instalación
+## Instalación manual
 
 1. Clonar el repo - `git clone git@github.com:banquito/spark.git`
 2. Ejecutar `composer install`
@@ -27,6 +27,10 @@ Spark es un stack de Wordpress basado en [Bedrock](https://roots.io/bedrock/)
 6. Restaurar el último backup de la db desde `web/app/uploads/wp-migrate-db`
   * gunzip < [backupfile.sql.gz] | mysql -u [uname] -p[pass] [dbname]
 7. Ingrar al admin desde `http://site.local/wp/wp-admin`
+
+## Instalación vía composer
+
+1. Ejecutar `composer create-project banquito/spark nombre-proyecto`
 
 ## Extras
 
