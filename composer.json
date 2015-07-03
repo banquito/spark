@@ -2,7 +2,8 @@
   "name": "banquito/spark",
   "description": "Wordpress Stack",
   "type": "project",
-
+  "license": "MIT",
+  
   "config": {
     "preferred-install": "dist"
   },
