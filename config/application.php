@@ -41,7 +41,7 @@ $table_prefix = getenv('DB_PREFIX') ?: 'wp_';
 /**
  * LANG setting
  */
-define ('WPLANG', getenv('WP_LANG'));
+define('WPLANG', getenv('WP_LANG'));
 /**
  * Authentication Unique Keys and Salts
  */

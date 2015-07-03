@@ -9,7 +9,9 @@
  * License: MIT License
  */
 namespace Roots\Bedrock;
+
 if (!is_blog_installed()) { return; }
+
 class Autoloader {
   private static $cache; // Stores our plugin cache and site option.
   private static $auto_plugins; // Contains the autoloaded plugins (only when needed).
