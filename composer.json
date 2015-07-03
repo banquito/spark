@@ -1,15 +1,8 @@
 {
-  "name": "Spark",
-  
+  "name": "banquito/spark",
   "description": "Wordpress Stack",
-  
-  "repositories":[
-    {
-      "type":"composer",
-      "url":"http://wpackagist.org"
-    }
-  ],
-  
+  "type": "project",
+
   "config": {
     "preferred-install": "dist"
   },
