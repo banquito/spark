@@ -3,7 +3,7 @@
   "description": "Wordpress Stack",
   "type": "project",
   "license": "MIT",
-  
+
   "config": {
     "preferred-install": "dist"
   },
@@ -17,9 +17,9 @@
 
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.2.2",
+    "johnpbloch/wordpress": "4.2.3",
     "composer/installers": "~1.0.12",
-    "vlucas/phpdotenv": "~1.0.9"
+    "vlucas/phpdotenv": "^2.0.1"
   },
 
   "extra": {
