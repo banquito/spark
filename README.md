@@ -5,7 +5,7 @@ Spark es un stack de Wordpress basado en [Bedrock](https://roots.io/bedrock/)
 
 ## Requerimientos
 
-* PHP >= 5.4
+* PHP >= 5.5
 * Composer - [Instalar](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 * WP-CLI (opcional) - [Instalar](http://wp-cli.org)
 
